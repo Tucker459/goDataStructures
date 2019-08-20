@@ -1,0 +1,2 @@
+# Go Data Structures
+Mainly walking through [Accelerated Computer Science Fundamentals](https://www.coursera.org/specializations/cs-fundamentals?) that teaches Data Structures & Algorithms. I'm converting all of the C++ to Go. Using [Flavio's Complete Guide to Go Data Structures](https://flaviocopes.com/golang-data-structures/) as a guide and expanding on some of his work. 
