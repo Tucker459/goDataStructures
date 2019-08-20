@@ -73,14 +73,14 @@ func (s *StringLinkedListQueue) Dequeue() *Node {
 	return removedNode
 }
 
-// Front returns the node from the beginning of the queue
+// Front returns the node that will we popped off next
 func (s *StringLinkedListQueue) Front() *Node {
-	return s.head
+	return s.tail
 }
 
 // End returns the node at the end of the queue
 func (s *StringLinkedListQueue) End() *Node {
-	return s.tail
+	return s.head
 }
 
 // IsEmpty returns false if the node is not empty

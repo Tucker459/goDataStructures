@@ -22,7 +22,7 @@ func (s *StringQueue) Enqueue(str string) {
 }
 
 // Dequeue removes an item from the start of the queue
-func (s *StringQueue) Dequeue(str string) *string {
+func (s *StringQueue) Dequeue() *string {
 	s.lock.Lock()
 	removedStr := s.Items[0]
 	s.Items = s.Items[1:len(s.Items)]
